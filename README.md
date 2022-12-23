@@ -1,6 +1,6 @@
 # Dumper
 
-Dumper is a Frida script to dump L3 CDMs from any Android device.
+Dumper is a Frida script to dump L1 QSEE keyboxes from any Android device. (Android 7-9)
 
 ## Dependencies
 
@@ -15,7 +15,7 @@ Use pip to install the dependencies:
 * Execute dump_keys.py
 * Start streaming some DRM-protected content
 
-## Temporary disabling L1 to use L3 instead
+## Use L3 instead
 A few phone brands let us use the L1 keybox even after unlocking the bootloader (like Xiaomi). In this case, installation of a Magisk module called [liboemcrypto-disabler](https://github.com/umylive/liboemcrypto-disabler) is necessary.
 
 ## Known issues
